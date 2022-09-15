@@ -25,8 +25,8 @@ public class Teleporter : MonoBehaviour
             Vector3 portal_to_player = player.position - transform.position;
             float dotProduct = Vector3.Dot(transform.up, portal_to_player);
             ischeck = portal_to_player.x;
-            //if(dotProduct<0f)
-           //{
+            if(dotProduct<0f)
+           {
                 check = true;
                 float rotationdiff = Quaternion.Angle(transform.rotation,reciever.rotation);
                 rotationdiff += 180;
@@ -36,11 +36,11 @@ public class Teleporter : MonoBehaviour
                 player.position = reciever.position + positionOffset;
 
                 overlapping = false;
-            //}
-            //else
-            //{
+            }
+            else
+            {
                 check = false;
-            //}
+            }
         }
         
     }

@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - cam no see
   - Water
   - UI
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Seeable
+    uniqueID: 1207150461
+    locked: 0
+  - name: non seeable
+    uniqueID: 3076967919
     locked: 0

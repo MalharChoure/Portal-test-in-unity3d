@@ -357,6 +357,11 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Portal_cam.cs"
 "Assets/Scripts/Teleporter.cs"
+"Assets/Weird_room_assets/Scene_scpecific_scripts/Cam_c_movement.cs"
+"Assets/Weird_room_assets/Scene_scpecific_scripts/Cam_movement.cs"
+"Assets/Weird_room_assets/Scene_scpecific_scripts/Cam_movement_b.cs"
+"Assets/Weird_room_assets/Scene_scpecific_scripts/Game_Manager_weird_room.cs"
+"Assets/Weird_room_assets/Scene_scpecific_scripts/Teleport_reverse.cs"
 -langversion:9.0
 
 /deterministic
